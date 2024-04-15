@@ -62,7 +62,7 @@ body {
 }
 
 .main__form {
-    width: 482px;
+    width: 320px;
     margin-top: 70px;
     text-align: center;
 }
@@ -86,4 +86,9 @@ body {
 
 .main__form input::placeholder {
     color: #585858;
+}
+
+.main__form-recovery {
+    width: 100%;
+    text-align: right;
 }

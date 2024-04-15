@@ -43,6 +43,7 @@ body {
     background-repeat: no-repeat;
     background-size: 105% 105%;
     color: #fff;
+    font-family: "Inter", sans-serif;
 }
 
 .container {
@@ -66,3 +67,23 @@ body {
     text-align: center;
 }
 
+.main__title {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.main__form input {
+    width: 320px;
+    height: 45px;
+    margin-bottom: 20px;
+    padding-left: 12px;
+    background-color: #2B2B2B;
+    color: #fff;
+    outline: none;
+    border-width: 0;
+    border-radius: 8px;
+}
+
+.main__form input::placeholder {
+    color: #585858;
+}

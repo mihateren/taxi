@@ -168,7 +168,7 @@ body {
 }
 
 .phone-img {
-    width: 65px;
+    width: 65px !important;
 }
 
 .logo {

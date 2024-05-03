@@ -352,7 +352,8 @@ body {
     margin-right: 100px;
 }
 
-.current-order div {
+.current-order div,
+.available-order div {
     font-size: 24px;
 }
 
@@ -418,4 +419,23 @@ input:checked + .slider:before {
 }
 #card-label {
     right: 0;
+}
+
+.available-order__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.available-order {
+    padding-top: 20px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: calc(50% - 10px);
+    max-width: calc(40% - 10px);
+    margin: 25px;
+}
+
+.apply-order-btn {
+    margin: 0 auto;
 }

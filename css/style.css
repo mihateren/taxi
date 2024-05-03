@@ -250,3 +250,64 @@ body {
     background-color: #585858;
     color: #fff;
 }
+
+.profile__content {
+    min-height: 100vh;
+    display: flex;
+}
+
+.profile__main {
+    width: 100%;
+    background-color: #191d1f;
+    display: flex;
+    justify-content: center;
+}
+
+.profile__form-container {
+    margin-top: 60px;
+}
+
+.profile__title {
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.profile__info {
+    margin-top: 25px;
+}
+
+.profile__info li {
+    margin-bottom: 20px;
+}
+
+.profile__info input {
+    width: 320px;
+    height: 45px;
+    padding-left: 12px;
+    background-color: #2B2B2B;
+    color: #fff;
+    outline: none;
+    border-width: 0;
+    border-radius: 8px;
+}
+
+.profile__info input::placeholder {
+    color: #585858;
+}
+
+.profile__info-btn {
+    width: 320px;
+    height: 45px;
+    background-color: #fff;
+    border-width: 0;
+    border-color: #000;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.profile__info-btn:hover {
+    background-color: #585858;
+    color: #fff;
+}

@@ -311,3 +311,30 @@ body {
     background-color: #585858;
     color: #fff;
 }
+
+.orders__container {
+    margin-top: 30px;
+}
+
+.orders-item {
+    width: 380px;
+    height: 220px;
+    margin-bottom: 20px;
+    background-color: #2B2B2B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.orders-item-text {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.orders-item div {
+    margin-left: 20px;
+}
+
+.orders__stars path {
+    fill: #F1C644;
+}

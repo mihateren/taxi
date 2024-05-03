@@ -320,10 +320,11 @@ body {
     width: 380px;
     height: 220px;
     margin-bottom: 20px;
+    padding-top: 35px;
     background-color: #2B2B2B;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .orders-item-text {
@@ -337,4 +338,33 @@ body {
 
 .orders__stars path {
     fill: #F1C644;
+}
+
+.order-title {
+    text-align: center;
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.current-order {
+    width: 400px;
+    height: 350px;
+    margin-right: 100px;
+}
+
+.current-order div {
+    font-size: 24px;
+}
+
+.orders__stars {
+    display: flex;
+    justify-content: space-around;
+}
+
+.orders__stars .orders-item-text {
+    margin-left: -7px;
+}
+
+.current-order__container {
+    display: flex;
 }

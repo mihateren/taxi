@@ -9,12 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.min.js"></script>
 </head>
 
 <body>
-    <div class="profile-page">
+    <div class="histry-page">
         <div class="container profile__container">
             <div class="content">
                 <div class="sidebar">
@@ -38,34 +36,13 @@
                 </div>
                 <div class="profile__main">
                     <div class="profile__form-container">
-                        <h2 class="profile__title">Your Profile:</h2>
-                        <form class="profile__info">
-                            <ul>
-                                <li>
-                                    <input type="text" name="fullname" placeholder="Full Name" required />
-                                </li>
-                                <li>
-                                    <input type="tel" id="phone" name="phone" placeholder="Phone number" pattern="\+7\([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
-                                </li>
-                                <li>
-                                    <input type="email" name="email" placeholder="Email" required />
-                                </li>
-                                <li>
-                                    <input type="password" name="password" placeholder="Password" required />
-                                </li>
-                                <button class="profile__info-btn" type="submit">Save changes</button>
-                            </ul>
-                        </form>
+                        <h2 class="profile__title">Orders history</h2>
+                        
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <script>
-        $(document).ready(function(){
-          $("#phone").inputmask("+7(999)999-99-99");
-        });
-    </script>
 </body>
 
 </html>

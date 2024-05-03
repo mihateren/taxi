@@ -251,7 +251,7 @@ body {
     color: #fff;
 }
 
-.profile__content {
+.content {
     min-height: 100vh;
     display: flex;
 }
